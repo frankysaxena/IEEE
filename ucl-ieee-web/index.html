@@ -25,12 +25,9 @@
             <div class="hero-text-box">
                 <h1>IEEE Student Branch<br/>University College London</h1>
                 <!-- <a class="btn btn-full" href="#">I want to join</a> -->
-                <a class="btn btn-ghost" href="#">Show me more</a>
+                <a class="btn btn-ghost" href="bottom">Show more</a>
             </div>
         </header>
-        <div class="arrow bounce">
-
-        </div>
         <section class="section-ieee-products">
             <div class="row">
                 <h2>IEEE Products</h2>
@@ -139,9 +136,13 @@
                         February 2016
                    </div>
                     <div class="activity-feature">
-                        <i class="ion-social-twitter icon-small"></i>
-                        <a href="https://www.facebook.com/groups/1401067126860089/">Facebook</a>
+                        <i class="ion-social-facebook icon-small"></i>
+                        <a href="https://www.facebook.com/groups/1401067126860089/">Join us</a>
                    </div>
+                   <div class="activity-feature">
+                       <i class="ion-social-twitter icon-small"></i>
+                       <a href="https://twitter.com/uclieee">Follow us</a>
+                  </div>
                 </div>
                 <div class="col span-1-of-4 box">
                    <img src="resources/img/3dprinting.jpg" alt="wearable">
@@ -155,9 +156,13 @@
                         March 2016
                    </div>
                     <div class="activity-feature">
-                        <i class="ion-social-twitter icon-small"></i>
-                        <a href="https://www.facebook.com/groups/1401067126860089/">Facebook</a>
+                        <i class="ion-social-facebook icon-small"></i>
+                        <a href="https://www.facebook.com/groups/1401067126860089/">Join us</a>
                    </div>
+                   <div class="activity-feature">
+                       <i class="ion-social-twitter icon-small"></i>
+                       <a href="https://twitter.com/uclieee">Follow us</a>
+                  </div>
                 </div>
                 <div class="col span-1-of-4 box">
                    <img src="resources/img/bigdata.jpg" alt="wearable">
@@ -171,9 +176,13 @@
                         April 2016
                    </div>
                     <div class="activity-feature">
-                        <i class="ion-social-twitter icon-small"></i>
-                        <a href="https://www.facebook.com/groups/1401067126860089/">Facebook</a>
+                        <i class="ion-social-facebook icon-small"></i>
+                        <a href="https://www.facebook.com/groups/1401067126860089/">Join us</a>
                    </div>
+                   <div class="activity-feature">
+                       <i class="ion-social-twitter icon-small"></i>
+                       <a href="https://twitter.com/uclieee">Follow us</a>
+                  </div>
                 </div>
                 <div class="col span-1-of-4 box">
                    <img src="resources/img/election.jpg" alt="wearable">
@@ -187,9 +196,13 @@
                         October 2016
                    </div>
                     <div class="activity-feature">
-                        <i class="ion-social-twitter icon-small"></i>
-                        <a href="https://www.facebook.com/groups/1401067126860089/">Facebook</a>
+                        <i class="ion-social-facebook icon-small"></i>
+                        <a href="https://www.facebook.com/groups/1401067126860089/">Join us</a>
                    </div>
+                   <div class="activity-feature">
+                       <i class="ion-social-twitter icon-small"></i>
+                       <a href="https://twitter.com/uclieee">Follow us</a>
+                  </div>
                 </div>
             </div>
         </section>
@@ -329,7 +342,7 @@
                     </div>
                     <div class="row">
                         <div class="col span-1-of-3">
-                            <label>Drop us a line</label>
+                            <label>Comment</label>
                         </div>
                         <div class="col span-2-of-3">
                             <textarea name="message" placeholder="Your message"></textarea>
@@ -340,10 +353,11 @@
                             <label>&nbsp;</label>
                         </div>
                         <div class="col span-2-of-3">
-                            <input type="submit" value="Send it!">
+                            <input id="send" name="submit" type="submit" value="Send">
                         </div>
                     </div>
                 </form>
+                <h3><?php include "email.php"?></h3>
             </div>
         </section>
     </body>
