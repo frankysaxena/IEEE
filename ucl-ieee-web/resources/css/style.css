@@ -113,7 +113,7 @@ h2:after {
     color: #e67e22;
     font-size: 120%;
     margin-right: 10px;
-    
+
     /* secrets to align text and icons */
     line-height: 120%;
     vertical-align: middle;
@@ -137,6 +137,10 @@ a:active {
     border-bottom: 1px solid transparent;
 }
 
+/* ----- SCROLLER ----- */
+
+
+
 /* ----- BUTTONS ----- */
 
 .btn:link,
@@ -146,7 +150,7 @@ input[type=submit] {
     padding: 10px 30px;
     font-weight: 300;
     text-decoration: none;
-    border-radius: 200px; 
+    border-radius: 200px;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
@@ -219,7 +223,7 @@ header {
 
 .main-nav li {
     display: inline-block;
-    margin-left: 40px; 
+    margin-left: 40px;
 }
 
 .main-nav li a:link,
@@ -259,7 +263,7 @@ header {
 
 .images-showcase li {
     display: block;
-    float: left; 
+    float: left;
     width: 24.3%;
 }
 
@@ -269,7 +273,7 @@ header {
     overflow: hidden;
     background-color: #000;
 }
- 
+
 .product-photo img {
     opacity: 0.7;
     width: 100%;
@@ -379,7 +383,7 @@ blockquote:before {
     position: absolute;
     top: -5px;
     left: -3px;
-    
+
 }
 
 cite {
