@@ -302,7 +302,7 @@
                 <h2>We are happy to hear from you</h2>
             </div>
             <div class="row">
-              <form method="POST" name="contactform" action="contact_form_handler.php" class="contact-form">
+              <form method="POST" name="contactform" action="test.php" class="contact-form">
                     <div class="row">
                         <div class="col span-1-of-3">
                             <label for="name">Name</label>
