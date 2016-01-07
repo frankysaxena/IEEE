@@ -1,9 +1,8 @@
 <?php
 $errors = '';
-$myemail = 'frankysaxena@gmail.com';//<-----Put Your email address here.
+$myemail = 'frankysaxena@gmail.com';
 if(empty($_POST['name'])  ||
-   empty($_POST['email']) ||
-   empty($_POST['tel']))
+   empty($_POST['email']))
 {
     $errors .= "\n Error: all fields are required";
 }
@@ -15,15 +14,6 @@ $findus = $_POST['find-us'];
 $newsletter = $_POST['newsletter'];
 if ($newsletter != 'Yes') {
     $newsletter = 'No';
-}
-
-
-
-if (!preg_match(
-"/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/i",
-$email_address))
-{
-    $errors .= "\n Error: Invalid email address";
 }
 
 if( empty($errors))
