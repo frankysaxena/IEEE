@@ -1,24 +1,3 @@
-<!-- <?php
-if(isset($_POST['submit'])){
-    $to = "uclieeesb@gmail.com";
-    $from = $_POST['email'];
-    $name = $_POST['name'];
-    $findus = $_POST['find-us']
-    $news = $_POST['news']
-    $subject = "Form submission";
-    $subject2 = "Copy of your form submission";
-    $message = $name . " " . " wrote the following:" . "\n\n" . $_POST['message'];
-    $message2 = "Here is a copy of your message " . $name . "\n\n" . $_POST['message'];
-
-    $headers = "From:" . $from;
-    $headers2 = "From:" . $to;
-    mail($to,$subject,$message,$findus,$news,$headers);
-    mail($from,$subject2,$message2,$findus,$news,$headers2); // sends a copy of the message to the sender
-    echo "Mail Sent. Thank you " . $name . ", we will contact you shortly.";
-    // You can also use header('Location: thank_you.php'); to redirect to another page.
-    }
-?> -->
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -323,7 +302,7 @@ if(isset($_POST['submit'])){
                 <h2>We are happy to hear from you</h2>
             </div>
             <div class="row">
-              <form method="POST" name="contactform" action="contact-form-handler.php" class="contact-form"> 
+              <form method="POST" name="contactform" action="contact-form-handler.php" class="contact-form">
                     <div class="row">
                         <div class="col span-1-of-3">
                             <label for="name">Name</label>
