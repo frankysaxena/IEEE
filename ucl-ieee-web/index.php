@@ -25,10 +25,10 @@
             <div class="hero-text-box">
                 <h1>IEEE Student Branch<br/>University College London</h1>
                 <!-- <a class="btn btn-full" href="#">I want to join</a> -->
-                <a class="btn btn-ghost" href="bottom">Show more</a>
+                <a class="btn btn-ghost" href="#more">Show more</a>
             </div>
         </header>
-        <section class="section-ieee-products">
+        <section class="section-ieee-products" id="more">
             <div class="row">
                 <h2>IEEE Products</h2>
                 <p class="long-copy">
@@ -297,12 +297,12 @@
             </div>
         </section>
 
-        <section class="section-form">
+        <section class="section-form" id="email">
             <div class="row">
                 <h2>We are happy to hear from you</h2>
             </div>
             <div class="row">
-                <form method="post" action="#" class="contact-form">
+                <form method="post" action="#email" class="contact-form">
                     <div class="row">
                         <div class="col span-1-of-3">
                             <label for="name">Name</label>
