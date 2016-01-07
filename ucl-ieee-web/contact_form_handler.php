@@ -22,7 +22,7 @@ if( empty($errors))
     $email_subject = "Contact form submission: $name";
     $email_body = "You have received a new message. ".
     " Here are the details:\n Name: $name \n Email: $email_address \n Message: $message \n Find us: $findus \n Newsletter: $newsletter"
-}
+
     ;
 
 
