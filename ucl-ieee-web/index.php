@@ -287,8 +287,8 @@ if(isset($_POST['submit'])){
                         <div>
                            <ul>
                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Your logo on our website</li>
-                               <li><i class="ion-ios-checkmark-empty icon-small"></i>Your wallpaper in our events</li>
                                <li><i class="ion-ios-checkmark-empty icon-small"></i>2 letters/year to members</li>
+                               <li><i class="ion-ios-checkmark-empty icon-small"></i>Your wallpaper in our events</li>
                            </ul>
                         </div>
                         <div>
@@ -305,8 +305,8 @@ if(isset($_POST['submit'])){
                         <div>
                            <ul>
                              <li><i class="ion-ios-checkmark-empty icon-small"></i>Your logo on our website</li>
-                             <li><i class="ion-ios-checkmark-empty icon-small"></i>Your wallpaper in our events</li>
                              <li><i class="ion-ios-checkmark-empty icon-small"></i>5 letters/year to members</li>
+                             <li><i class="ion-ios-checkmark-empty icon-small"></i>Your wallpaper in our events</li>
                              <li><i class="ion-ios-checkmark-empty icon-small"></i>Tailor our activities to you</li>
                            </ul>
                         </div>
@@ -323,7 +323,7 @@ if(isset($_POST['submit'])){
                 <h2>We are happy to hear from you</h2>
             </div>
             <div class="row">
-                <form method="post" action="#email" class="contact-form">
+              <form method="POST" name="contactform" action="contact-form-handler.php" class="contact-form"> 
                     <div class="row">
                         <div class="col span-1-of-3">
                             <label for="name">Name</label>
@@ -358,7 +358,8 @@ if(isset($_POST['submit'])){
                             <label>Would you like to subscribe to our newsletter?</label>
                         </div>
                         <div class="col span-2-of-3">
-                            <input type="checkbox" name="news" id="news" checked> Yes
+                            <input type="checkbox" name="newsletter" id="newsletter" value="Yes" checked>
+                            <label for="newsletter">Yes</label>
                         </div>
                     </div>
                     <div class="row">
