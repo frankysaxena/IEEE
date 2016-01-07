@@ -30,9 +30,8 @@ if( empty($errors))
     $to = $myemail;
     $email_subject = "Contact form submission: $name";
     $email_body = "You have received a new message. ".
-    " Here are the details:\n Name: $name \n Email: $email_address \n Message: $message \n Find us: $findus \n Newsletter: $newsletter"
+    " Here are the details:\n Name: $name \n Email: $email_address \n Message: $message \n Find us: $findus \n Newsletter: $newsletter";
 }
-    ;
 
 
     $headers = "From: $myemail\n";
@@ -40,5 +39,6 @@ if( empty($errors))
 
     mail($to,$email_subject,$email_body,$headers);
     //redirect to the 'thank you' page
+    header('Location: contact-form-thank-you.html');
 
 ?>
