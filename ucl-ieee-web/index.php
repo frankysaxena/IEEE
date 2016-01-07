@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 if(isset($_POST['submit'])){
     $to = "uclieeesb@gmail.com";
     $from = $_POST['email'];
@@ -17,7 +17,7 @@ if(isset($_POST['submit'])){
     echo "Mail Sent. Thank you " . $name . ", we will contact you shortly.";
     // You can also use header('Location: thank_you.php'); to redirect to another page.
     }
-?>
+?> -->
 
 <!DOCTYPE html>
 <html lang="en">
