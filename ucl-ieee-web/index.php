@@ -253,7 +253,7 @@
                            </ul>
                         </div>
                         <div>
-                            <a href="#" class="btn btn-ghost" href="#email" >Contact us</a>
+                            <a href="#email" class="btn btn-ghost">Contact us</a>
                         </div>
                     </div>
                 </div>
@@ -271,7 +271,7 @@
                            </ul>
                         </div>
                         <div>
-                            <a href="#" class="btn btn-ghost" href="#email" >Contact us</a>
+                            <a href="#email" class="btn btn-ghost">Contact us</a>
                         </div>
                     </div>
                 </div>
@@ -290,7 +290,7 @@
                            </ul>
                         </div>
                         <div>
-                            <a href="#" class="btn btn-ghost" href="#email" >Contact us</a>
+                            <a href="#email" class="btn btn-ghost" >Contact us</a>
                         </div>
                     </div>
                 </div>
