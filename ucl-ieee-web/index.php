@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <title>UCL IEEE</title>
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
         <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,300italic' rel='stylesheet' type='text/css'>
         <link rel="shortcut icon" type="image/png" href="resources/img/favicon.ico"/>
-        <title>UCL IEEE</title>
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
+        <script src="resources/js/scroll.js" type="text/javascript"></script>
     </head>
     <body>
         <header>
@@ -25,10 +27,10 @@
             <div class="hero-text-box">
                 <h1>IEEE Student Branch<br/>University College London</h1>
                 <!-- <a class="btn btn-full" href="#">I want to join</a> -->
-                <a class="btn btn-ghost" href="#more">Show more</a>
+                <button id="showmore" class="btn btn-ghost">Show more</button>
             </div>
         </header>
-        <section class="section-ieee-products" id="more">
+        <section class="section-ieee-products" id="products">
             <div class="row">
                 <h2>IEEE Products</h2>
                 <p class="long-copy">
@@ -253,7 +255,7 @@
                            </ul>
                         </div>
                         <div>
-                            <a href="#email" class="btn btn-ghost">Contact us</a>
+                            <button class="to-contact btn btn-ghost">Contact us</button>
                         </div>
                     </div>
                 </div>
@@ -271,7 +273,7 @@
                            </ul>
                         </div>
                         <div>
-                            <a href="#email" class="btn btn-ghost">Contact us</a>
+                            <button class="to-contact btn btn-ghost">Contact us</a>
                         </div>
                     </div>
                 </div>
@@ -290,7 +292,7 @@
                            </ul>
                         </div>
                         <div>
-                            <a href="#email" class="btn btn-ghost" >Contact us</a>
+                            <button class="to-contact btn btn-ghost" >Contact us</button>
                         </div>
                     </div>
                 </div>
