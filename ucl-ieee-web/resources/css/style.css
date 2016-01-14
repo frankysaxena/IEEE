@@ -188,6 +188,26 @@ input[type=submit] {
     color: #fff;
 }
 
+#showmore, .to-contact{
+    background: none;
+    color: #e67e22;
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 1px solid #e67e22;
+    border-radius: 50px;
+    font-weight: 300;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+#showmore:hover,
+#showmore:visited, .to-contact:hover, .to-contact:visited {
+    color: #fff;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    background-color: #e67e22;
+
+}
+#showmore:focus, .to-contact:focus {outline:0;}
+
+
 /* ------------------------------------------*/
 /* HEADER */
 /* ------------------------------------------*/
@@ -433,6 +453,9 @@ cite img {
     background-color: #fcfcfc;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+}
+.plan-box div:nth-child(2) {
+    min-height: 180px;
 }
 
 .plan-box div:last-child {
