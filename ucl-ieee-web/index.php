@@ -242,7 +242,7 @@
                     <div class="plan-box">
                         <div>
                             <h3>Starter</h3>
-                            <p class="plan-price">$50 <span>/ year</span></p>
+                            <p class="plan-price">£50 <span>/ year</span></p>
                         </div>
                         <div>
                            <ul>
@@ -261,7 +261,7 @@
                     <div class="plan-box">
                         <div>
                             <h3>Pro</h3>
-                            <p class="plan-price">$100 <span>/ year</span></p>
+                            <p class="plan-price">£100 <span>/ year</span></p>
                         </div>
                         <div>
                            <ul>
@@ -279,7 +279,7 @@
                     <div class="plan-box">
                         <div>
                             <h3>Premium</h3>
-                            <p class="plan-price">$200 <span>/ year</span></p>
+                            <p class="plan-price">£200 <span>/ year</span></p>
                         </div>
                         <div>
                            <ul>
