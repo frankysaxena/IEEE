@@ -61,7 +61,7 @@
                 </div>
                 <div class="col span-1-of-4 box">
                     <i class="ion-ios-infinite icon-big"></i>
-                    <h3>IEEE Potential</h3>
+                    <h3>IEEE Potentials</h3>
                     <p>
                         Career strategies; the latest in research; and important technical developments
                     </p>
@@ -72,24 +72,32 @@
         <section class="section-images">
             <ul class="images-showcase clearfix">
                 <li>
+                  <a href="http://ieeexplore.ieee.org/Xplore/home.jsp">
                     <figure class="product-photo">
-                        <img src="resources/img/1.png" alt="IEEE Xplore">
+                        <img src="resources/img/1.png" alt="IEEE Xplore" href = "http://ieeexplore.ieee.org/Xplore/home.jsp">
                     </figure>
+                  </a>
                 </li>
                 <li>
+                  <a href="http://spectrum.ieee.org/">
                     <figure class="product-photo">
                         <img src="resources/img/2.jpg" alt="IEEE Spectrum">
                     </figure>
+                  </a>
                 </li>
                 <li>
+                  <a href="https://ieeetv.ieee.org/">
                     <figure class="product-photo">
                         <img src="resources/img/3.png" alt="IEEE TV">
                     </figure>
+                  </a>
                 </li>
                 <li>
+                  <a href="http://www.ieee.org/membership_services/membership/students/potentials.html">
                     <figure class="product-photo">
                         <img src="resources/img/4.jpg" alt="IEEE Potentials">
                     </figure>
+                  </a>
                 </li>
             </ul>
         </section>
@@ -116,7 +124,7 @@
                         <p>Additional events planned in the future to bring all engineering disciplines together</p>
                     </div>
 
-                    <a href="#" class="btn-eng"><img src="resources/img/ucl_engineering.png" alt="Change The World"></a>
+                    <a href="http://www.engineering.ucl.ac.uk/" class="btn-eng"><img src="resources/img/ucl_engineering.png" alt="Change The World"></a>
                 </div>
             </div>
         </section>
@@ -222,13 +230,13 @@
                 </div>
                 <div class="col span-1-of-3">
                     <blockquote>
-                        Joining UCL IEEE can help enhance your CV in terms of technical background.
+                        We aim to connect students to the forefront of technology.
                         <cite><img src="resources/img/ryan.jpg">Ryan Xi &mdash; Chairman</cite>
                     </blockquote>
                 </div>
                 <div class="col span-1-of-3">
                     <blockquote>
-                        UCL IEEE is supported by UCL, top-rated university in REF 2014.
+                        IEEE is an organisation that is often overlooked when it comes to the greatest inventions of mankind.
                         <cite><img src="resources/img/franky.jpg">Franky Saxena &mdash; Head of Publicity</cite>
                     </blockquote>
                 </div>
@@ -243,7 +251,7 @@
                 <div class="col span-1-of-3">
                     <div class="plan-box">
                         <div>
-                            <h3>Starter</h3>
+                            <h3>Bronze</h3>
                             <p class="plan-price"> &#163;50 <span>/ year</span></p>
                         </div>
                         <div>
@@ -262,7 +270,7 @@
                 <div class="col span-1-of-3">
                     <div class="plan-box">
                         <div>
-                            <h3>Pro</h3>
+                            <h3>Silver</h3>
                             <p class="plan-price"> &#163;100 <span>/ year</span></p>
                         </div>
                         <div>
@@ -280,7 +288,7 @@
                 <div class="col span-1-of-3">
                     <div class="plan-box">
                         <div>
-                            <h3>Premium</h3>
+                            <h3>Gold</h3>
                             <p class="plan-price"> &#163;200 <span>/ year</span></p>
                         </div>
                         <div>
