@@ -24,11 +24,23 @@
                     </ul>
                 </div>
             </nav>
+            </div>
+            <div
+                style="width:auto;
+                height:auto;
+                padding:20px 90px;
+                text-align:center;
+                top:0;
+                position:absolute;
+                right:0;">
+                <a href="http://www.eventbrite.co.uk/e/ieee-spark-ii-wearable-tech-tickets-21081084090?ref=ebtn" target="_blank"><img src="https://www.eventbrite.co.uk/custombutton?eid=21081084090" alt="Eventbrite - IEEE Spark II - Wearable Tech" /></a>
+                </div>
             <div class="hero-text-box">
                 <h1>IEEE Student Branch<br/>University College London</h1>
                 <!-- <a class="btn btn-full" href="#">I want to join</a> -->
                 <button id="showmore" class="btn btn-ghost">Show more</button>
-            </div>
+                <div>
+                </div>
         </header>
         <section class="section-ieee-products" id="products">
             <div class="row">
@@ -214,7 +226,17 @@
                        <a href="https://twitter.com/uclieee">Follow us</a>
                   </div>
                 </div>
+        </section>
+        <section class="Eventbrite-connect">
+            <div class="row">
+                <h2>Ticket Reservations</h2>
             </div>
+            <div style="width:100%; text-align:left;" >
+              <iframe  src="https://eventbrite.co.uk/tickets-external?eid=21081084090&ref=etckt" frameborder="0" height="214" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="no" allowtransparency="true">
+              </iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" >
+              <a class="powered-by-eb" style="color: #dddddd; text-decoration: none;" target="_blank" href="http://www.eventbrite.co.uk/r/etckt">Powered by Eventbrite</a>
+            </div>
+
         </section>
 
         <section class="section-testimonials">
