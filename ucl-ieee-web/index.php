@@ -155,7 +155,7 @@
                    </div>
                     <div class="activity-feature">
                         <i class="ion-ios-star icon-small"></i>
-                        February 2016
+                        March 2016
                    </div>
                     <div class="activity-feature">
                         <i class="ion-social-facebook icon-small"></i>
@@ -175,7 +175,7 @@
                    </div>
                     <div class="activity-feature">
                         <i class="ion-ios-star icon-small"></i>
-                        March 2016
+                        April 2016
                    </div>
                     <div class="activity-feature">
                         <i class="ion-social-facebook icon-small"></i>
@@ -195,7 +195,7 @@
                    </div>
                     <div class="activity-feature">
                         <i class="ion-ios-star icon-small"></i>
-                        April 2016
+                        May 2016
                    </div>
                     <div class="activity-feature">
                         <i class="ion-social-facebook icon-small"></i>
