@@ -258,7 +258,7 @@
                 </div>
                 <div class="col span-1-of-3">
                     <blockquote>
-                        IEEE is an organisation that is often overlooked when it comes to the greatest inventions of mankind.
+                        We take for granted the inventions members of the IEEE have given us.
                         <cite><img src="resources/img/franky.jpg">Franky Saxena &mdash; Head of Publicity</cite>
                     </blockquote>
                 </div>
