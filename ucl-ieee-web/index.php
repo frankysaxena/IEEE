@@ -12,6 +12,7 @@
         <script src="resources/js/scroll.js" type="text/javascript"></script>
     </head>
     <body>
+	<?php include_once("analyticstracking.php") ?>
         <header>
             <nav>
                 <div class="row">
