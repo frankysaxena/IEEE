@@ -53,7 +53,7 @@
             <div class="row">
                 <div class="col span-1-of-4 box">
                     <i class="ion-university icon-big"></i>
-                    <h3>IEEE Xplore</h3>
+                    <h3>IE Xplore</h3>
                     <p>
                         The most prestigious academic source of technology, engineering and science
                     </p>
@@ -62,7 +62,7 @@
                     <i class="ion-ios-pulse-strong icon-big"></i>
                     <h3>IEEE Spectrum</h3>
                     <p>
-                        The latest news and information about technology, engineering and science
+                        The news and information about technology, engineering and science
                     </p>
                 </div>
                 <div class="col span-1-of-4 box">
@@ -74,7 +74,7 @@
                 </div>
                 <div class="col span-1-of-4 box">
                     <i class="ion-ios-infinite icon-big"></i>
-                    <h3>IEEE Potentials</h3>
+                    <h3>IE Potentials</h3>
                     <p>
                         Career strategies; the latest in research; and important technical developments
                     </p>
